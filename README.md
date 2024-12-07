@@ -10,8 +10,8 @@ Leveraging Framer Motion for smooth and engaging animations that enhance the use
 A dedicated section to display completed projects with detailed descriptions, technologies used, and live demo links.<br>
 💼 Skills Section-<br>
 Highlights your expertise in front-end and back-end technologies through interactive skill bars.<br>
-💬 Contact Form-<br>
-A functional messaging feature allowing visitors to send inquiries directly.<br>
+💬 Contact Information Section-<br>
+A dedicated area providing visitors with your email address and mobile number for direct inquiries. This simplifies communication by allowing users to contact you through their preferred method without filling out a form.<br>
 🚀 Fast and Optimized-<br>
 Built with performance optimization techniques for quick loading times and smooth navigation.<br>
 ## 🛠 Technologies Used
