@@ -3,7 +3,7 @@ JK-Portfolio is a modern and visually appealing self-portfolio designed to showc
 
 # ✨ Features
 🖥️ Responsive Design-<br>
-The portfolio adapts seamlessly to any device, offering a flawless experience on desktops, tablets, and smartphones.<br>
+►  The portfolio adapts seamlessly to any device, offering a flawless experience on desktops, tablets, and smartphones.<br>
 🎨 Interactive Animations-<br>
 Leveraging Framer Motion for smooth and engaging animations that enhance the user experience.<br>
 📂 Projects Showcase-<br>
