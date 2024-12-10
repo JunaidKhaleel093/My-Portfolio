@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FileText } from "lucide-react";
 import FloatingShapes from "./FloatingShapes";
@@ -82,9 +82,7 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            I'm a front-end developer passionate about crafting intuitive,
-            responsive interfaces using HTML, CSS, JavaScript, React, and
-            Tailwind CSS. Let's turn ideas into amazing web experiences!
+           As a front-end developer, I enjoy creating responsive interfaces with HTML, CSS, JavaScript, React, and Tailwind CSS. Let's transform our ideas into wonderful web experiences!
           </motion.p>
           <motion.div
             className="flex gap-6 items-center pt-4 justify-center"
