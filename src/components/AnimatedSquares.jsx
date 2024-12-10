@@ -25,16 +25,12 @@ const AnimatedSquares = () => {
 
   const colors = [
     'bg-white/30', 
-    // 'bg-slate-900/30',
+
     'bg-yellow-100/30',
-    // 'bg-indigo-950/30',
 
     'bg-pink-100/90',
-    // 'bg-purple-950/30',
 
     'bg-blue-950/80',
-    // 'bg-blue-950/30',
-
   ];
 
   return (

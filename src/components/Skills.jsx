@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaGithub,FaPython } from 'react-icons/fa'
-import { SiTailwindcss, SiMongodb, SiPostgresql } from 'react-icons/si'
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaGithub } from 'react-icons/fa'
+import { SiTailwindcss } from 'react-icons/si'
 import { FaBootstrap, } from 'react-icons/fa'
 import { SiNextdotjs, SiExpress, SiJquery, SiVite, SiFramer } from 'react-icons/si'
 

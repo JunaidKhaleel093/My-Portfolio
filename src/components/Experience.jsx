@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { FaBriefcase } from 'react-icons/fa'
 
-
 const Experience = () => {
   const experiences = [
     {
@@ -50,7 +49,7 @@ const Experience = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="text-4xl font-bold inline text-[#3a4d76]  border-b-4 border-binary">Experience</p>
-          <p style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }} className="py-4 text-45px text-blue-200">My professional journey</p>
+          <p style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }} className="py-4 text-45px text-blue-200">My Professional Journey</p>
         </motion.div>
 
         <div className="mt-8">

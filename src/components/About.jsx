@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-
 const About = () => {
   return (
     <div name="about" className="w-full h-screen sm:mt-[-2rem] md:mt-[-3rem] lg:mt-[-4rem]">
