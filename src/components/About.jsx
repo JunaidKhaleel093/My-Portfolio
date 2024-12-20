@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen sm:mt-[-2rem] md:mt-[-3rem] lg:mt-[-4rem]">
+    <div name="about" className="w-full max-w-screen overflow-hidden h-screen sm:mt-[-2rem] md:mt-[-3rem] lg:mt-[-4rem]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <motion.div 

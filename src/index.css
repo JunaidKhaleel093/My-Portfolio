@@ -4,12 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
 @layer base {
   body {
     @apply antialiased bg-[#061521];
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Playfair Display'
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Playfair Display',
       sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -35,7 +45,8 @@
 .animate-scroll:hover {
   animation-play-state: paused;
 }
-@media (max-width: 640px) { 
+
+@media (max-width: 640px) {
   .animate-scroll {
     animation: scroll 10s linear infinite;
   }
@@ -43,6 +54,17 @@
 
 @media (max-width: 480px) {
   .animate-scroll {
-    animation: scroll 10s linear infinite; 
+    animation: scroll 10s linear infinite;
+  }
 }
+
+
+.container {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+img, video, canvas {
+  max-width: 100%;
+  height: auto;
 }
