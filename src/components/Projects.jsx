@@ -38,7 +38,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full min-h-screen">
+    <div name="projects" className="w-full min-h-screen relative overflow-x-hidden">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

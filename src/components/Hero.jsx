@@ -17,7 +17,7 @@ function Hero() {
   };
 
   return (
-    <div className="relative min-h-screen bg-[#061521] text-white overflow-hidden font-sans">
+    <div className="w-full min-h-screen bg-[#061521] text-white overflow-hidden font-sans relative overflow-x-hidden">
       <FloatingShapes />
       <PulsingCircles />
       <OrbitingCircle />

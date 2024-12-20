@@ -11,7 +11,7 @@ const ProjectCard = ({ project, index }) => {
         scale: 1.02,
         transition: { duration: 0.2 },
       }}
-      className="bg-[#112240] rounded-lg overflow-hidden shadow-xl transform-gpu"
+      className="bg-[#112240] rounded-lg overflow-hidden shadow-xl transform-gpu relative overflow-x-hidden"
     >
       <motion.img
         initial={{ opacity: 0 }}

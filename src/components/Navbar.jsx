@@ -13,7 +13,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-textPrimary fixed bg-[#061521] z-50">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-textPrimary fixed bg-[#061521] z-50 ">
 <div>
   <img src="/images/favicon-120.png" alt="Logo" className="w-16 h-auto ml-1 mt-2" />
 </div>

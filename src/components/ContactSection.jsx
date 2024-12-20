@@ -19,7 +19,7 @@ const ContactSection = () => {
   return (
     <div
       id="contact"
-      className="w-full flex justify-center items-center py-12 bg-[#061521]"
+      className="w-full relative overflow-x-hidden flex justify-center items-center py-12 bg-[#061521]"
       onClick={handleClickOutside}
     >
       <motion.div
