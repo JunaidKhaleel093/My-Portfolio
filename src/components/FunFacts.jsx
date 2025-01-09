@@ -5,32 +5,40 @@ const FunFacts = () => {
     {
       id: 1,
       title: "Badminton Enthusiast",
-      content: "I play badminton competitively and find it helps sharpen my focus.",
+      content:
+        "I play badminton competitively and find it helps sharpen my focus.",
     },
     {
       id: 2,
       title: "Fitness Enthusiast",
-      content: "Staying active through regular workouts keeps me physically and mentally sharp, ready for any challenge.",
+      content:
+        "Staying active through regular workouts keeps me physically and mentally sharp, ready for any challenge.",
     },
     {
       id: 3,
       title: "Creative Problem-Solver",
-      content: "I enjoy tackling complex challenges, breaking them down into manageable solutions that drive results.",
+      content:
+        "I enjoy tackling complex challenges, breaking them down into manageable solutions that drive results.",
     },
     {
       id: 4,
       title: "Visionary Designer",
-      content: "I love crafting user-centric designs that seamlessly blend functionality with aesthetics.",
+      content:
+        "I love crafting user-centric designs that seamlessly blend functionality with aesthetics.",
     },
     {
       id: 5,
       title: "Technology Explorer",
-      content: "Exploring the latest trends and tools in technology fuels my curiosity and keeps my skills cutting-edge.",
+      content:
+        "Exploring the latest trends and tools in technology fuels my curiosity and keeps my skills cutting-edge.",
     },
   ];
 
   return (
-    <div name="funfacts" className="w-full min-h-screen relative overflow-x-hidden">
+    <div
+      name="funfacts"
+      className="w-full min-h-screen relative overflow-x-hidden"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -40,7 +48,12 @@ const FunFacts = () => {
           <p className="text-4xl font-bold text-[#3a4d76] inline border-b-4 border-binary">
             Fun Facts
           </p>
-          <p style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }} className="py-4 text-45px text-blue-200">A little more about me</p>
+          <p
+            style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }}
+            className="py-4 text-45px text-blue-200"
+          >
+            A little more about me
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 mt-8">

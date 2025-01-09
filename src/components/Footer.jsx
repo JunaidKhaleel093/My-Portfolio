@@ -7,9 +7,8 @@ const Footer = () => {
     <>
       <footer className="bg-[#061521] text-gray-400 py-6 relative overflow-x-hidden">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-
           <div className="text-left mb-4 md:mb-0">
-          <p className="mb-1 ">&copy; {new Date().getFullYear()} Junaid Ismail. All rights reserved.</p>
+            <p className="mb-1">Copyright &copy; {year} Mohammed Junaid</p>
           </div>
 
           <div className="w-full md:w-[calc(100%-200px)] border-t-2 border-cyan-800 mx-4 mb-4 md:mb-0"></div>

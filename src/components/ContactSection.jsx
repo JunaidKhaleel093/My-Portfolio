@@ -51,7 +51,7 @@ const ContactSection = () => {
           {showContactInfo && (
             <div
               ref={contactInfoRef} 
-              className="absolute top-16 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#061521] to-[#341f52] border-2 border-[#0a141c] rounded-lg p-6 shadow-lg w-full"
+              className="absolute top-16 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#061521] to-[#0c2438]  rounded-lg p-6 shadow-lg w-full"
             >
               <p style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }}  className="text-blue-200 text-lg">📧 Email: junaidkhaleel.093@gmail.com</p>
               <p style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }}  className="text-blue-200 text-lg mt-2">📞 Phone: +91 8217009727</p>

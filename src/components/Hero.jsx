@@ -9,7 +9,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 
 function Hero() {
-  const words = ["Front-End Developer", "Web Developer"];
+  const words = ["Full-Stack Developer", "MERN Stack Developer"];
   const [currentWord, setCurrentWord] = useState(words[0]);
 
   const handleType = (count) => {
@@ -59,14 +59,17 @@ function Hero() {
           >
             <span
               style={{
-                color: currentWord === "Web Developer" ? "#536878" : "#3a4d76",
+                color:
+                  currentWord === "MERN Stack Developer"
+                    ? "#536878"
+                    : "#3a4d76",
               }}
             >
               <Typewriter
                 words={words}
                 loop={Infinity}
                 cursor
-                cursorStyle="█"
+                cursorStyle="|"
                 typeSpeed={60}
                 deleteSpeed={20}
                 delaySpeed={2000}
@@ -82,7 +85,11 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-           As a front-end developer, I enjoy creating responsive interfaces with HTML, CSS, JavaScript, React, and Tailwind CSS. Let's transform our ideas into wonderful web experiences!
+            Full Stack MERN Developer | Front-End Developer skilled in
+            JavaScript, MongoDB, Express.js, React.js, Node.js. Proficient in
+            creating responsive, scalable web applications and optimizing
+            performance. Passionate about delivering impactful, user-centered
+            solutions.
           </motion.p>
           <motion.div
             className="flex gap-6 items-center pt-4 justify-center"
@@ -96,7 +103,7 @@ function Hero() {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="/images/Resume.pdf"
+                href="/images/Junaid-MERN.pdf"
                 download="Juniad-Resume.pdf"
                 className="flex items-center"
               >
