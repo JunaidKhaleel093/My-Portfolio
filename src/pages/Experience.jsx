@@ -1,7 +1,12 @@
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaBriefcase } from "react-icons/fa";
 
 const Experience = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const experiences = [
     {
       id: 1,
@@ -55,7 +60,7 @@ const Experience = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <p className="text-4xl font-bold inline text-[#3a4d76]  border-b-4 border-binary">
+          <p className="text-4xl font-bold inline text-[#3a4d76] border-b-4 border-binary">
             Experience
           </p>
           <p
