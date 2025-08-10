@@ -104,7 +104,7 @@ function Hero() {
             >
               <a
                 href="/images/Junaid-MERN.pdf"
-                download="Juniad-Resume.pdf"
+                download=""
                 className="flex items-center"
               >
                 <FileText className="w-5 h-5" />
