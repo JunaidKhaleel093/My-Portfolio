@@ -47,7 +47,7 @@ function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Mohammed Junaid Ismail
+            Mohammed Junaid Ismail Sayeeda Suhana
           </motion.h1>
 
           <motion.h2
