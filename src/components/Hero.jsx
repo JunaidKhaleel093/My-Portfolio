@@ -9,7 +9,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 
 function Hero() {
-  const words = ["Full-Stack Developer", "MERN Stack Developer"];
+  const words = ["Technical Support Engineer", "IT Support Engineer"];
   const [currentWord, setCurrentWord] = useState(words[0]);
 
   const handleType = (count) => {
@@ -60,7 +60,7 @@ function Hero() {
             <span
               style={{
                 color:
-                  currentWord === "MERN Stack Developer"
+                  currentWord === "IT Support Engineer"
                     ? "#536878"
                     : "#3a4d76",
               }}
@@ -85,11 +85,7 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            Full Stack MERN Developer | Front-End Developer skilled in
-            JavaScript, MongoDB, Express.js, React.js, Node.js. Proficient in
-            creating responsive, scalable web applications and optimizing
-            performance. Passionate about delivering impactful, user-centered
-            solutions.
+            Technical Support Engineer skilled in troubleshooting hardware, software, and network issues. Proficient in incident management, ticketing systems, root cause analysis, and delivering exceptional customer support. Passionate about resolving technical challenges, optimizing user experiences, and ensuring seamless IT operations.
           </motion.p>
           <motion.div
             className="flex gap-6 items-center pt-4 justify-center"
